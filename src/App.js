@@ -24,8 +24,6 @@ function App() {
       <div className="container m3">
         <TextForm heading="Enter the text to analyze below" mode={mode}/>
       </div> 
-
-      
     </>
   );
 }
