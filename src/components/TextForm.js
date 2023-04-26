@@ -24,7 +24,7 @@ export default function TextForm(props) {
   const handleOnChange = (event) => {
     setText(event.target.value);
   };
-  return (
+  return ( 
     <>
     <div className="container" style={{color: props.mode==="light"?"black":"white"}}>
       <h1 >{props.heading}</h1>
